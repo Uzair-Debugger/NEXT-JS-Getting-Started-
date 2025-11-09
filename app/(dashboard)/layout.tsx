@@ -1,9 +1,9 @@
 
-
+import DashboardNavbar from "./DashboardNavbar"
 const layout = ({children}: {children: React.ReactNode}) => {
   return (
     <main>
-        <p>Main Dashboard Navbar</p>
+        <DashboardNavbar/>
         {children}
     </main>
   )
